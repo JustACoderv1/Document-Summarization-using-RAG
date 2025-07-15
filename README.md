@@ -42,5 +42,3 @@ pip install PyPDF2 transformers tf-keras tensorflow sentence-transformers faiss-
 
 1. Use your own Google API Key in the code.
 2. Make sure to have compatible versions of Transformers, Keras and Tensorflow.
-
---
