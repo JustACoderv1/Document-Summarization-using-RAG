@@ -2,24 +2,33 @@
 
 This project provides an end-to-end pipeline to **extract**, **embed**, **retrieve**, and **summarize** content from PDF and Word documents using:
 
-- 📄 `PyPDF2` and `python-docx` for document parsing  
-- 🧠 `SentenceTransformer` (SBERT) for semantic embeddings  
-- ⚡ `FAISS` for fast similarity search  
-- 🤖 Google Gemini (`google.generativeai`) for LLM-based summarization
+# Dependencies
+
+- `PyPDF2` and `python-docx` for document parsing
+- `Transformers`, `Keras` and `Tensorflow` for machine learning execution.  
+- `SentenceTransformer` (SBERT) for semantic embeddings  
+- `FAISS` for fast similarity search  
+- Google Gemini (`google.generativeai`) for LLM-based summarization
+
+You can install the required dependencies by running:
+
+```bash
+pip install PyPDF2 transformers tf-keras tensorflow sentence-transformers faiss-cpu google-generativeai python-docx 
+```
 
 ---
 
-## 🔍 Key Features
+## Key Features
 
-- ✅ Supports both **PDF** and **DOCX** documents
-- 🧠 Sentence-BERT-based embedding generation
-- 🔎 Vector search with **FAISS**
-- 📡 Summarization via **Google Gemini API**
-- 🧰 Modular code structure for reuse
+- Supports both **PDF** and **DOCX** documents
+- Sentence-BERT-based embedding generation
+- Vector search with **FAISS**
+- Summarization via **Google Gemini API**
+- Modular code structure for reuse
 
 ---
 
-## 🚀 Workflow
+## Workflow
 
 1. **Extract** text from a PDF or DOCX file  
 2. **Split** text into semantic chunks or sentences  
@@ -28,8 +37,3 @@ This project provides an end-to-end pipeline to **extract**, **embed**, **retrie
 5. **Summarize** using Google Gemini API
 
 ---
-
-## 📦 Requirements
-
-```bash
-pip install -r requirements.txt
