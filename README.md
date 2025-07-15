@@ -1,3 +1,5 @@
+> **⚠️ This project is a work in progress. Features, structure, and documentation are subject to change.**
+
 # Document Summarization using RAG
 
 This project provides an end-to-end pipeline to **extract**, **embed**, **retrieve**, and **summarize** content from PDF and Word documents using:
