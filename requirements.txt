@@ -1,5 +1,0 @@
-PyPDF2
-sentence-transformers
-faiss-cpu  # or faiss-gpu if you want GPU acceleration
-google-generativeai
-python-docx
